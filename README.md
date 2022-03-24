@@ -1,11 +1,11 @@
 # react-count
 
 ### `useReducer`
-    - useReducer hook
-    - counter function "+", "-" and "reset"
-    - state declaration
-      - const [state, dispatch] = useReducer(reducer, {count: 0})
-    - reducer function
+- useReducer hook
+- counter function "+", "-" and "reset"
+- state declaration
+    - const [state, dispatch] = useReducer(reducer, {count: 0})
+- reducer function
 ```js
 const reducer = (state, action) => {
     switch (action.type) {
@@ -16,7 +16,9 @@ const reducer = (state, action) => {
     }
 }
 ```
-    - run dispatch on click
+
+- run dispatch on click
+
 ```js
 () => dispatch({type: XXX})
 ```
